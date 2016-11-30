@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Noto-Sans';
+	src: url( '../data/fonts/noto-sans/NotoSans-Bold.ttf' ),
+		url( '../data/fonts/noto-sans/NotoSans-BoldItalic.ttf' ),
+		url( '../data/fonts/noto-sans/NotoSans-Italic.ttf' ),
+		url( '../data/fonts/noto-sans/NotoSans-Regular.ttf' );
+	font-weight: normal;
+	font-style: normal;
+
+	font-family:  'Noto-Serif';
+	src: url( '../data/fonts/noto-serif/NotoSerif-Bold.ttf' ),
+		url( '../data/fonts/noto-serif/NotoSerif-BoldItalic.ttf' ),
+		url( '../data/fonts/noto-serif/NotoSerif-Italic.ttf' ),
+		url( '../data/fonts/noto-serif/NotoSerif-Regular.ttf' );
+
+	font-family: 'helvetica_neue_regular';
+	src: url( '../data/fonts/helvetica_neue_regular/Helvetica.ttf' );
+}

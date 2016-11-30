@@ -1,0 +1,408 @@
+/*
+Theme Name: Jiggasa Forum
+package   : Jiggasa
+author    : AL-AMIN
+version   : 1.0
+author URL: http://parbona.net
+Description: Free Answer and Question Forum
+Version: 1.0
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  background: #1A6781;
+  color: #111;
+  font-family: 'Noto Serif', 'Noto Sans', "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px auto;
+}
+body a:hover {
+  text-decoration: none;
+}
+.top {
+  box-shadow: 0 0 3px #111;
+  line-height: 2em;
+  /** footer segment */
+
+}
+.top ul.toplinks_links {
+  list-style: none;
+  margin: 0;
+  text-align: right;
+}
+.top ul.toplinks_links li {
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 0 8px 15px;
+}
+.top ul.toplinks_links li a {
+  color: #dadddd;
+}
+.top ul.toplinks_links li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.top .top-menu {
+  background: #1f6c86;
+  padding: 0 30px;
+}
+.top .shadow {
+  background: url(../img/shadow.png) top center no-repeat;
+}
+.top .shadow a.site-title {
+  float: left;
+  font-size: 36px;
+  color: white;
+}
+.top .shadow a.site-title:hover {
+  color: white;
+}
+.top .shadow .top-nav {
+  text-align: center;
+  margin: 22px 0 5px 20px;
+}
+.top .shadow .top-nav ul {
+  list-style: none;
+  margin: 30px 30px 26px 20px;
+}
+.top .shadow .top-nav ul li {
+  background: none!important;
+  display: inline-block;
+  text-align: right;
+  height: auto;
+  line-height: 25px;
+  margin-bottom: 0;
+  margin-left: 25px;
+  position: relative;
+}
+.top .shadow .top-nav ul li a {
+  color: #555;
+  display: block;
+  font-size: 12px;
+  padding-top: 0;
+  text-transform: uppercase;
+}
+.top .shadow .top-nav ul li a:hover {
+  color: #000;
+}
+.top .content {
+  background: #fff;
+  padding: 15px 10px;
+  color: #111;
+  /** Only page not found */
+
+}
+.top .content .main-page input[type=checkbox] + span {
+  color: #111;
+  font-style: italic;
+}
+.top .content .main-page input[type=checkbox]:checked + span {
+  color: #000;
+  font-style: normal;
+}
+.top .content h1 {
+  color: red;
+  font-size: 25px;
+}
+.top .content ul.post-list li {
+  list-style: none;
+  padding: 7px 0px 10px 10px;
+  border-bottom: 1px solid #ccc;
+  margin-left: -7px;
+  margin-right: -7px;
+}
+.top .content ul.post-list li a {
+  margin-left: 10px;
+  -webkit-transition: padding-left 0.5s, color 1s;
+  -moz-transition: padding-left 0.5s, color 1s;
+  transition: padding-left 0.5s, color 1s;
+}
+.top .content ul.post-list li a:hover {
+  padding-left: 10px;
+  text-decoration: none;
+  color: red;
+}
+.top .content input[type=checkbox] + span {
+  color: #111;
+  font-style: italic;
+}
+.top .content input[type=checkbox]:checked + span {
+  color: #000;
+  font-style: normal;
+}
+.top .footer {
+  border-top: 5px solid #a1beeb;
+  padding: 15px 20px;
+  background: #c2c2b1;
+  margin-left: 0px;
+}
+.top .footer-bottom {
+  background: #1f6c86;
+  color: #8bd1d1;
+  margin-left: 0;
+  padding: 10px 15px 10px 10px;
+  font-family: 'Noto Sans', "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 35px;
+  min-height: 50px;
+}
+.top .footer-bottom .d-right {
+  font-family: 'Noto Serif', 'Noto Sans', "Helvetica Neue", Helvetica, sans-serif;
+  margin-right: 50px;
+}
+.top .footer-bottom a {
+  color: #dcebeb;
+}
+/** style single page */
+#preview p img {
+  width: 150px;
+  height: 150px;
+}
+.next-pre-post {
+  margin-top: 50px;
+}
+/** style about page */
+.img-me {
+  width: 300px;
+  margin-top: 71px;
+}
+.captcha-img img {
+  border-radius: 4%;
+}
+/** Forum page style */
+ul.show-question {
+  margin-top: 30px;
+}
+ul.show-question li {
+  list-style: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  min-height: 130px;
+  -webkit-border-top-left-radius: 11px;
+  -moz-border-top-left-radius: 11px;
+  -ms-border-top-left-radius: 11px;
+  -o-border-top-left-radius: 11px;
+  border-top-left-radius: 11px;
+}
+ul.show-question li img {
+  border-radius: 15%;
+  height: 75px;
+  width: 75px;
+}
+ul.show-question li .entry-n {
+  margin: -70px 0px 0px 85px;
+}
+ul.show-question li p {
+  margin: 0px 0 0 85px;
+  padding-bottom: 10px;
+}
+ul.show-question li p time.time {
+  color: #6b6b6b;
+  font-size: 11px;
+}
+ul.show-question li span.q-like {
+  margin: 10px 0px 0px 77px;
+}
+ul.show-question li span.give-pic {
+  margin-left: 75px;
+}
+ul.show-question li span.give-pic img {
+  width: 50px;
+  height: 43px;
+}
+ul.show-question li span.give-pic form {
+  margin: -36px 0px 0px 130px;
+}
+ul.show-question li span.ans {
+  margin-left: 75px;
+}
+ul.show-question li span.ans .ans-pic {
+  height: 40px;
+  width: 40px;
+}
+ul.show-question li span.ans .entry-ans {
+  margin: -43px 0px 0px 121px;
+}
+ul.show-question li span.ans a {
+  font-size: 12px;
+  margin-left: 1px;
+}
+ul.show-question li span.ans p {
+  margin: 0px 0px 0px 121px;
+  font-size: 14px;
+}
+ul.show-question li span.ans p time.show-time {
+  color: #6b6b6b;
+  font-size: 11px;
+}
+ul.profile {
+  margin-top: 30px;
+}
+ul.profile li {
+  list-style: none;
+}
+ul.right-ans {
+  list-style: none;
+  margin-top: 120px;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 10px;
+}
+ul.right-ans li {
+  border-top: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  padding: 5px;
+}
+ul.right-ans li:last-child {
+  border-bottom: 1px solid #e1e1e1;
+}
+ul.right-ans .ans {
+  padding-bottom: 20px;
+}
+ul.right-ans .ans .entry-ans {
+  margin: -48px 0px 0px 45px;
+}
+ul.right-ans .ans .entry-ans a {
+  font-size: 12px;
+}
+ul.right-ans .ans p {
+  margin: 0px 0px 0px 45px;
+  font-size: 13px;
+}
+.search-box input[type="text"] {
+  background: url(../img/search-dark.png) no-repeat 10px 10px;
+  border: 0 none;
+  color: #000;
+  width: 150px;
+  padding: 6px 15px 6px 35px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 3px 2px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 3px 2px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8), 0 2px 3px 2px rgba(0, 0, 0, 0.2) inset;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+.search-box input[type="text"]:focus {
+  width: 350px;
+  background: url(../img/search-white.png) no-repeat 10px 10px;
+}
+ul.search-people {
+  margin-top: 30px;
+}
+ul.search-people li {
+  list-style: none;
+  margin-bottom: 10px;
+  border: 1px solid #e1e1e1;
+  padding: 5px;
+}
+ul.search-people .people-name a {
+  font-size: 15px;
+}
