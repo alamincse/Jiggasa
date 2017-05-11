@@ -1,4 +1,4 @@
-# Jiggasa Install
+## Jiggasa Install
 
 Go to your **'include'** folder and open your **'config.paths.php'** file and set your base_url.
 
@@ -43,5 +43,5 @@ $config['BASE_URL'] = 'http://localhost/my_task/Jiggasa/';
 
 ```
 
-#Author
-[AL-AMIN](http://www.parbona.net)
+## Author
+[Al-Amin Sarker](http://www.parbona.net)
