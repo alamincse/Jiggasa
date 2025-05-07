@@ -44,4 +44,4 @@ $config['BASE_URL'] = 'http://localhost/my_task/Jiggasa/';
 ```
 
 ## Author
-[Al-Amin Sarker](http://www.parbona.net)
+Al-Amin Sarker
